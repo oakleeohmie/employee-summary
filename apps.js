@@ -89,7 +89,7 @@ function init() {
                     })
             };
         })
-    function addPrintExit() {
+    function nextStep() {
         console.log(employees);
         inquirer
             .prompt([
@@ -136,3 +136,4 @@ function init() {
             });
     };
 };
+init();
