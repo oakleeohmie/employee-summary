@@ -64,7 +64,7 @@ function init() {
                         {
                             type: "input",
                             name: "gitHubProfile",
-                            message: "Please provide the Engineer's GitHub profile username?"
+                            message: "What is the Engineer's GitHub profile username?"
                         }
                     ])
                     .then(res_three => {
